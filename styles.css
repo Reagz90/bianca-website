@@ -1,5 +1,6 @@
 * {
     font-family: sans-serif;
+    text-align: center;
 }
 
 ul {
@@ -21,8 +22,19 @@ ul {
     padding: 14px 16px;
     text-decoration: none;
   }
-  
   /* Change the link color to #111 (black) on hover */
   li a:hover {
     background-color: #111;
+  }
+
+  img {
+    opacity: 0.8;
+  }
+
+  body {
+    background-image: url('./images/heartstopper.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover; 
+    position: relative; 
   }
